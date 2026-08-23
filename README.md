@@ -72,7 +72,6 @@ Based in Kyiv, Ukraine.
 | [OLAP Export Tool](https://github.com/starychenko/olap-export-tool) | Python · ADOMD.NET · SQL | Exports Analysis Services cubes to Excel, CSV and analytical databases |
 | [ocXRay](https://github.com/starychenko/opencart-debug) | PHP · OpenCart · OCMOD | SQL query profiler and controller action debugger for OpenCart 3.x |
 | [Ukrainian Fiscal Calendar](https://github.com/starychenko/calendar) | TypeScript · Next.js · PWA | Fiscal calendar with ISO 8601 and GfK mappings ([live app](https://calendar.apps.lwhs.xyz)) |
-| [Claude Code Agent](https://github.com/starychenko/claude-code-agent) | OpenClaw · Claude Code | Skill for delegating, tracking and reviewing background coding tasks |
 
 ---
 
