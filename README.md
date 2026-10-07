@@ -12,14 +12,15 @@
 
 ## About
 
-Category manager who builds software around retail data, e-commerce operations and self-hosted infrastructure. I turn recurring operational work into data pipelines, internal tools, OpenCart extensions, deployment stacks and focused utilities.
+Category manager who builds software around retail data, e-commerce operations and self-hosted infrastructure. I turn recurring work into data pipelines, internal tools and OpenCart extensions. I also build Windows utilities and work on device-specific Linux kernels.
 
 - **Retail data** - Analysis Services and OLAP, BigQuery, PostgreSQL, Excel, Power Query, DAX and ETL pipelines.
-- **E-commerce** - OpenCart search, catalog and inventory tooling, product feeds, delivery integrations and operational automation.
+- **E-commerce** - OpenCart and ocStore search, catalog and inventory tooling, product feeds, delivery integrations and operational automation.
 - **Development** - Python, TypeScript, PHP and C++, with AI-assisted workflows for repeatable engineering tasks.
 - **Infrastructure** - Proxmox, LXC, Docker, Coolify, Linux, Nginx and observability for self-hosted services.
+- **Windows & Android** - Windhawk taskbar utilities, hardware monitoring and Linux kernel tuning for low-RAM devices.
 
-Based in Kyiv, Ukraine.
+Based in Kyiv, Ukraine. [Website](https://lwhs.xyz/).
 
 ---
 
@@ -35,6 +36,7 @@ Based in Kyiv, Ukraine.
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![OpenCart](https://img.shields.io/badge/OpenCart-23A8E0?style=flat-square&logo=opencart&logoColor=white)
+![Windhawk](https://img.shields.io/badge/Windhawk-2563EB?style=flat-square)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
@@ -67,10 +69,11 @@ Based in Kyiv, Ukraine.
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [Taskbar System Info](https://github.com/starychenko/windhawk-taskbar-system-info) | C++ · Windhawk · Win32 | Compact CPU, GPU, RAM and VRAM monitor for the Windows 11 taskbar |
-| [OpenCart (OcStore) Docker](https://github.com/starychenko/OcStore) | Docker · PHP · Nginx · MariaDB | Deployment stack for OcStore 2.3 and 3.x with Coolify support |
-| [OLAP Export Tool](https://github.com/starychenko/olap-export-tool) | Python · ADOMD.NET · SQL | Exports Analysis Services cubes to Excel, CSV and analytical databases |
-| [ocXRay](https://github.com/starychenko/opencart-debug) | PHP · OpenCart · OCMOD | SQL query profiler and controller action debugger for OpenCart 3.x |
+| [Taskbar System Info](https://github.com/starychenko/windhawk-taskbar-system-info) | C++ · Windhawk · Win32 · XAML | Windows 11 taskbar monitor with CPU/GPU usage, temperatures and graphs, RAM/VRAM readings, adaptive layouts and saved positions across monitors |
+| [Lenovo TB-X505L low-RAM kernel](https://github.com/starychenko/lenovo-tb-x505l-lowram-kernel) | Linux · ARM64 · Android | Device-specific Linux 4.9.337 kernel for the 2 GB Lenovo tablet, with PSI-backed memory management, LZ4 zRAM and CPU/GPU tuning |
+| [OpenCart (OcStore) Docker](https://github.com/starychenko/OcStore) | Docker · PHP · Nginx · MariaDB | OcStore 2.3 and 3.x deployment stacks with automatic installation, persistent storage and Coolify support |
+| [OLAP Export Tool](https://github.com/starychenko/olap-export-tool) | Python · ADOMD.NET · SQL | Scheduled and streaming Analysis Services exports to Excel/CSV, with ClickHouse, DuckDB and PostgreSQL loading |
+| [ocXRay](https://github.com/starychenko/opencart-debug) | PHP · OpenCart · OCMOD | OpenCart 3.x SQL and controller profiler with N+1 detection, query-to-action linking and a debug panel |
 | [Ukrainian Fiscal Calendar](https://github.com/starychenko/calendar) | TypeScript · Next.js · PWA | Fiscal calendar with ISO 8601 and GfK mappings ([live app](https://calendar.apps.lwhs.xyz)) |
 
 ---
@@ -79,26 +82,26 @@ Based in Kyiv, Ukraine.
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=starychenko&theme=github_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=starychenko&theme=github_dark" alt="GitHub contribution overview" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=starychenko&theme=github_dark" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=starychenko&theme=github_dark" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=starychenko&theme=github_dark" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=starychenko&theme=github_dark" alt="Public repositories by language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=starychenko&theme=github_dark" alt="Commits by language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=starychenko&theme=github_dark" alt="GitHub activity statistics" />
 
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=starychenko&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+  <img src="https://streak-stats.demolab.com?user=starychenko&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub contribution streak" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=starychenko&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=starychenko&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1f6feb" alt="GitHub contribution activity graph" />
 </div>
 
 ---
